@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * 5'
 jobs: 
   build-job:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v4
-    - run: ./build_witc_docker.sh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./build_witc_docker.sh
